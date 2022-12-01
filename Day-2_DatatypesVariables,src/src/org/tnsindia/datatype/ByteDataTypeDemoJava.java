@@ -1,31 +1,29 @@
 package org.tnsindia.datatype;
 
-import java.util.Scanner;
-
 public class ByteDataTypeDemoJava {
 
 	public static void main(String[] args) {
-		//@SuppressWarnigs("resource")
-		Scanner s=new Scanner(System.in);
-		System.out.println("Enter the number: ");
-		int x=s.nextInt();
-		System.out.println("Enter the number: ");
-		
-		float y=s.nextFloat();
-		System.out.println("Enter the char: ");
-		
-		char c=s.next().charAt(0);
-		System.out.println("Enter the Strings: ");
-		
-		String str=s.next();
-		//String strl=s.nextLine();
-		
-		System.out.println("The integer is: "+x);
-		System.out.println("The desimal is: "+y);
-		System.out.println("The characte is: "+c);
-		System.out.println("The string is; "+str);
-		s.close();
-
+		//byte xyz=128 is not valid as it is out of range of byte data-type
+		//data members
+		int xyz=128;
+		//int _abc=2147483648;is not valid as it is out of range of int data-type
+		long _abc=2147483648L;
+		System.out.println("The value is: "+xyz);
+		System.out.println("The value is: "+_abc);
+		char num='z';
+		float c=15.67f;
+		double d=41.9;
+		String str="Shiwani";
+		boolean var=true;
+		int x=(int)12.5;//type-casting
+		float y=(float)34;
+		System.out.println("The value is: "+num);
+		System.out.println("The value is: "+c);
+		System.out.println("The value is: "+d);
+		System.out.println("The value is: "+str);
+		System.out.println("The value is: "+var);
+		System.out.println("The value is: "+x);
+		System.out.println("The value is: "+y);
 	}
 
 }
