@@ -7,7 +7,7 @@ public class FinalMethodExecutor {
 		f.aadhar_no=941631725;
 		f.PAN_no="EYDF143265H";
 		//f.print();
-		f.print(f.PAN_no);
+		f.print();
 		
 
 	}

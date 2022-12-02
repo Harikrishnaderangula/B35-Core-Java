@@ -11,10 +11,8 @@ public class FinalMethodwithParent {
 		System.out.println("Aadhar no.is: "+aadhar_no);
 	}
 
-	public void print(String pAN_no2) {
-		// TODO Auto-generated method stub
 		
 	}
 
 
-}
+
