@@ -13,7 +13,7 @@ public class ByteDataTypeDemoJava {
 		char num='z';
 		float c=15.67f;
 		double d=41.9;
-		String str="Shiwani";
+		String str="HARI";
 		boolean var=true;
 		int x=(int)12.5;//type-casting
 		float y=(float)34;

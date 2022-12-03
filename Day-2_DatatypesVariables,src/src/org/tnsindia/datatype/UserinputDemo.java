@@ -15,7 +15,7 @@ public class UserinputDemo {
 		float y=s.nextFloat();
 		
 		System.out.println("Enter the char: ");
-		char c=s.next().charAt(0);//"Shiwani"//s
+		char c=s.next().charAt(0);//"HARI"//s
 		//char c=s.next().charAt(1);//h
 
 		
